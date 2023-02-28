@@ -83,23 +83,27 @@ const styles = StyleSheet.create({
     marginTop:20,
     marginStart:40,
     color:'black',
+    
+    
   },
 
   cadastro:{
-    margin:40,
+    margin:50,
     width:250,
     height:50,
-    borderRadius: 25,
+    borderRadius: 20,
     backgroundColor: 'red',
-    marginStart:50,
+    marginRight:'auto',
+    marginLeft:'auto',
     
   },
   textcadastro:{
     color:'black',
     fontStyle:'italic',
     fontSize: 15,
-    textAlign:'center',
     marginTop:10,
+    marginRight:'auto',
+    marginLeft:'auto',
     
     
     

@@ -8,7 +8,7 @@ class App extends Component{
       <View style={styles.container}>
   
           <Text style={styles.textoini}>
-            Seja Bem vindo ! {'\n'} 
+            Seja bem vindo {'\n'} 
             Vamos realizar seu cadastro.
           </Text>
 
@@ -40,8 +40,8 @@ class App extends Component{
            />
 
           <TouchableOpacity>
-            <View style={styles.cadastro} >
-            <Text style={styles.textcadastro}>Cadastrar-se</Text>
+            <View style={styles.cadastro}>
+            <Text style={styles.textcadastro} >Cadastrar-se</Text>
             </View>
           </TouchableOpacity>
           </View>
@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
     width:250,
     height:50,
     borderRadius: 25,
-    backgroundColor: '#EC2124',
+    backgroundColor: 'red',
     marginStart:50,
     
   },
